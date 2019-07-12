@@ -13,13 +13,36 @@ header {
     display: flex;
     width: 90%;
     margin: auto;
+    height: 10vh;
+    align-items: center;
 }
+
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+
 
 
 .logo-container {
     background: lightblue;
+    flex: 1;
+    display: flex;
 }
 
 nav {
-    
+    background: lightgreen;
+    flex: 2;
+    display: flex;
+}
+
+.nav-links {
+    justify-content: space-around;
+}
+
+.cart {
+    background: red;
+    flex: 1;
+    display: flex;
+
 }
